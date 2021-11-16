@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = 'thanksasaservice.com';
+const hostname = 'localhost';
 const port = 80;
 
 const server = http.createServer((req, res) => {
