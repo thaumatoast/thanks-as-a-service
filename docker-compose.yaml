@@ -20,4 +20,4 @@ services:
       HOSTNAME: "thanksasaservice.com"
       PORT: 80
     ports:
-    - "80:80"
+      - "80:80"
