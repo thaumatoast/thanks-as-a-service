@@ -7,6 +7,4 @@ COPY thanks.js thanks.html /
 ENV HOSTNAME=${HOSTNAME}
 ENV PORT=${PORT}
 
-EXPOSE 8080
-
 ENTRYPOINT node thanks.js
